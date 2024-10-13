@@ -18,28 +18,36 @@ function addProblem(req,res,next){
    }
 }
 
-function getProblem(req,res){
-    return res.Status(StatusCodes.NOT_IMPLEMENTED).json({
-        message:"NOT IMPLEMENTED"
-      });
+function getProblem(req,res,next){
+    try {
+        throw new Badrequest('getProblem',{message:["problem is missing"]});
+      } catch (error) {
+         next(error);
+      }
 }
 
-function getProblems(req,res){
-    return res.Status(StatusCodes.NOT_IMPLEMENTED).json({
-        message:"NOT IMPLEMENTED"
-      });
+function getProblems(req,res,next){
+    try {
+        throw new Badrequest('getProblems',{message:["problem is missing"]});
+      } catch (error) {
+         next(error);
+      }
 }
 
-function deleteProblem(req,res){
-    return res.Status(StatusCodes.NOT_IMPLEMENTED).json({
-        message:"NOT IMPLEMENTED"
-      });
+function deleteProblem(req,res,next){
+    try {
+        throw new Badrequest('deleteProblem',{message:["problem is missing"]});
+      } catch (error) {
+         next(error);
+      }
 }
 
-function updateProblem(req,res){
-    return res.Status(StatusCodes.NOT_IMPLEMENTED).json({
-        message:"NOT IMPLEMENTED"
-      });
+function updateProblem(req,res,next){
+    try {
+        throw new Badrequest('updateProblem',{message:["problem is missing"]});
+      } catch (error) {
+         next(error);
+      }
 }
 
 module.exports={
