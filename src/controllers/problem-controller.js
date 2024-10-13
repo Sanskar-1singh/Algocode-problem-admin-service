@@ -10,9 +10,9 @@ function pingptoblemcontroller(req,res){
     });
 }
 
-function addProblem(req,res){
+function addProblem(req,res,next){
    try {
-     throw new Badrequest('addProblem',{});
+     throw new Badrequest('addProblem',{message:["problem is missing"]});
    } catch (error) {
       next(error);
    }
