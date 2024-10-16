@@ -18,27 +18,39 @@ async function addProblem(req,res,next){
             message:"successfully created a problem",
             error:{},
             data:newproblem
-         })
+         });
        } catch (error) {
             next(error);
        }
 }
 
-function getProblem(req,res,next){
-    try {
-        throw new Badrequest('getProblem',{message:["problem is missing"]});
-      } catch (error) {
-         next(error);
-      }
+ async function getProblem(req,res,next){
+         try {
+               const problem=await problemservice.getProblem(req.params.id);
+               return res.status(StatusCodes.CREATED).json({
+                success:true,
+                message:"successfully fetched a problem",
+                error:{},
+                data:problem
+             });
+           } catch (error) {
+                next(error);
+           }
 }
 
-function getProblems(req,res,next){
-    try {
-        throw new Badrequest('getProblems',{message:["problem is missing"]});
-      } catch (error) {
-         next(error);
-      }
-}
+ async function getProblems(req,res,next){
+       try {
+             const response=await problemservice.getProblems();
+             return res.status(StatusCodes.CREATED).json({
+                success:true,
+                message:"successfully fetched all problems",
+                error:{},
+                data:response
+             })
+           } catch (error) {
+                next(error);
+           }    
+       }       
 
 function deleteProblem(req,res,next){
     try {

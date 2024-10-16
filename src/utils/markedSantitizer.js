@@ -8,15 +8,15 @@ function sanitizeMarkdowncontent(markdownContent){
     // convert markdown to html
 
     const convertedHtml=marked.parse(markdownContent);
-     console.log("converted  html",convertedHtml);
+    // console.log("converted  html",convertedHtml);
     //sanitize  html
 
     const sanitizehtml=sanitizeHtmllibrary(convertedHtml,{
-        allowedTags:sanitizeHtmllibrary.defaults.allowedTags
+        allowedTags:sanitizeHtmllibrary.defaults.allowedTags.concat(['img'])
     });
-            console.log("sanitize html",sanitizehtml)
+           // console.log("sanitize html",sanitizehtml)
     const sanitizeMarkdown=turndownservice.turndown(sanitizehtml);
-    console.log(sanitizeMarkdown);
+    //console.log(sanitizeMarkdown);
     return sanitizeMarkdown;
 }
 
