@@ -10,7 +10,7 @@ function errorHandler(err,req,res,next){
                  data:{}
             });
         }
-        logger.error('something went wrong');
+        logger.error('something went wrong in my project');
         return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
             success:false,
             message:"Something went wrong",

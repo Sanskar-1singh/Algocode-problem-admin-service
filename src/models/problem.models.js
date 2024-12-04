@@ -29,6 +29,24 @@ const problemSchema=new mongoose.Schema({
             }
         }
     ],
+    codeStubs:[
+        {
+            language:{
+                type:String,
+                enum:["CPP","JAVA","PYTHON"],
+                required:true
+            },
+            startSnipet:{
+                 type:String,
+            },
+             endSnipet:{
+                type:String,
+             },
+              userSnipet:{ 
+              type:String,
+       }
+        }
+    ],
     editorial:{
         type:String
     }
