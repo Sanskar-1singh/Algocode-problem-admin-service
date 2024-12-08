@@ -20,7 +20,7 @@ allowedTransport.push(new winston.transports.Console({
 //the below configuration is for Mongodb>>>
 allowedTransport.push(new winston.transports.MongoDB({
     level:'warn',
-    db:'mongodb+srv://sanskarsingh812:dx4BPGzWFUMMfS7A@alogocode-logger.v1xa2.mongodb.net/?retryWrites=true&w=majority&appName=alogocode-logger',
+    db:'mongodb+srv://sanskarsingh812:iebexBGwgxp42CrU@cluster0.tgpuh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
     collection:'logs',
     format:winston.format.combine(
         winston.format.colorize(),
