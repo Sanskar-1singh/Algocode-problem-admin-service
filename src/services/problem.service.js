@@ -1,3 +1,4 @@
+const NotFoundError = require('../Errors/NotFoundError');
 const sanitizeMarkdownContent=require('../utils/markedSantitizer');
 
 class ProblemService{
@@ -13,7 +14,7 @@ class ProblemService{
                 return problem;
             } catch (error) {
                 console.log(error);
-                throw error;
+                throw new NotFoundError('not found');
             }
     }
 

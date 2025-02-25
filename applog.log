@@ -1,0 +1,48 @@
+2025-02-25 20:47:28 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 20:47:48 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 20:49:39 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 20:51:43 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 20:52:28 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 20:57:52 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 21:00:46 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 21:02:20 [error]: something went wrong in my project
+2025-02-25 21:04:00 [error]: something went wrong in my project
+2025-02-25 21:10:05 [error]: something went wrong in my project
+2025-02-25 21:11:52 [error]: something went wrong in my project
+2025-02-25 21:12:13 [error]: something went wrong in my project
+2025-02-25 21:12:53 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 21:17:39 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 21:18:13 [[33mwarn[39m]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 21:19:07 [[33mwarn[39m]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 21:19:22 [[33mwarn[39m]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 21:24:24 [warn]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 21:24:35 [[33mwarn[39m]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 21:24:47 [[33mwarn[39m]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 22:04:49 [[33mwarn[39m]: problem with 675087dbae0ec274a91bed17 not found in db
+2025-02-25 22:05:18 [[33mwarn[39m]: problem with 675087dbae0ec274a91bed17 not found in db for sure
+2025-02-25 22:05:46 [[33mwarn[39m]: problem with 675087dbae0ec274a91bed17 not found in db for sure
+2025-02-25 22:07:27 [[33mwarn[39m]: problem with 675087dbae0ec274a91bed17 not found in db for sure
+2025-02-25 22:08:55 [warn]: problem with 675087dbae0ec274a91bed17 not found in db for sure
+2025-02-25 22:13:17 [warn]: problem with 675087dbae0ec274a91bed17 not found in db for sure
+2025-02-25 22:16:40 [error]: something went wrong in my project
+2025-02-25 22:17:05 [warn]: problem with 675087dbae0ec274a91bed17 not found in db for sure
+2025-02-25 22:18:42 [warn]: problem with 675087dbae0ec274a91bed17 not found in db for sure+Not found: the requested resource:problem and value 675087dbae0ec274a91bed17
+    at ProblemRepository.deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\repositories\problem.repository.js:50:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ProblemService.deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\services\problem.service.js:43:28)
+    at async deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\controllers\problem-controller.js:61:26)
+2025-02-25 22:19:34 [warn]: problem with 675087dbae0ec274a91bed17 not found in db for sure+Not found: the requested resource:problem and value 675087dbae0ec274a91bed17
+    at ProblemRepository.deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\repositories\problem.repository.js:50:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ProblemService.deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\services\problem.service.js:43:28)
+    at async deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\controllers\problem-controller.js:61:26)+Not found+the requested resource:problem and value 675087dbae0ec274a91bed17
+2025-02-25 22:20:25 [warn]: problem with 675087dbae0ec274a91bed17 not found in db for sureNot found: the requested resource:problem and value 675087dbae0ec274a91bed17
+    at ProblemRepository.deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\repositories\problem.repository.js:50:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ProblemService.deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\services\problem.service.js:43:28)
+    at async deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\controllers\problem-controller.js:61:26)Not foundthe requested resource:problem and value 675087dbae0ec274a91bed17
+2025-02-25 22:20:48 [warn]: problem with 675087dbae0ec274a91bed17 not found in db for sure::Not found: the requested resource:problem and value 675087dbae0ec274a91bed17
+    at ProblemRepository.deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\repositories\problem.repository.js:50:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ProblemService.deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\services\problem.service.js:43:28)
+    at async deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\controllers\problem-controller.js:61:26)::Not found::the requested resource:problem and value 675087dbae0ec274a91bed17

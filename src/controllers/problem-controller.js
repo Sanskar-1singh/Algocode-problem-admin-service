@@ -8,6 +8,7 @@ function pingptoblemcontroller(req,res){
     });
 }
 
+
 const problemservice=new ProblemService(new ProblemRepository());
 
 async function addProblem(req,res,next){    
@@ -24,6 +25,7 @@ async function addProblem(req,res,next){
        }
 }
 
+
  async function getProblem(req,res,next){
          try {
                const problem=await problemservice.getProblem(req.params.id);
@@ -37,6 +39,7 @@ async function addProblem(req,res,next){
                 next(error);
            }
 }
+
 
  async function getProblems(req,res,next){
        try {
@@ -52,6 +55,7 @@ async function addProblem(req,res,next){
            }    
        }       
 
+
  async function deleteProblem(req,res,next){
         try {
           const response=await problemservice.deleteProblem(req.params.id);
@@ -66,6 +70,7 @@ async function addProblem(req,res,next){
         }
 }
 
+
 function updateProblem(req,res,next){
     try {
         throw new Badrequest('updateProblem',{message:["problem is missing"]});
@@ -73,6 +78,7 @@ function updateProblem(req,res,next){
          next(error);
       }
 }
+  
 
 module.exports={
     addProblem,
