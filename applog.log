@@ -46,3 +46,4 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async ProblemService.deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\services\problem.service.js:43:28)
     at async deleteProblem (C:\Users\SANSKAR SINGH\Desktop\algocode_backend\algocode-problem-admin-service\src\controllers\problem-controller.js:61:26)::Not found::the requested resource:problem and value 675087dbae0ec274a91bed17
+2025-03-03 22:14:57 [error]: something went wrong in my project
